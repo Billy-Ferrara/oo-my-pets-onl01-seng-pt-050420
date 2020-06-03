@@ -17,7 +17,7 @@ class Owner
   end
 
   def self.all
-    @@pets
+    @@all
   end
 
   def self.count
