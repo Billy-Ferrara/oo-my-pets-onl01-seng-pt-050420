@@ -31,9 +31,9 @@ class Owner
 
 
 
-  def pet_collection(pets)
-    @pets << pets
-    pets.owner = self
+  def cat_collection(cats)
+    @pets << cats
+    cats.owner = self
   end
 
 
