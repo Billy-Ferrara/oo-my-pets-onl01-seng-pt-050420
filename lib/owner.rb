@@ -32,7 +32,6 @@ class Owner
     @cats << cats
     owner.cats << cats
     cats.owner = self
-    @cats
   end
 
 
