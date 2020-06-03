@@ -33,8 +33,9 @@ class Owner
     pets[:cats] << Cat.new(cat_name)
   end
 
-  def self.cats
-    @pets
+  def cat_collection
+    @pets << pets
+    pets.owner = self 
   end
 
 
