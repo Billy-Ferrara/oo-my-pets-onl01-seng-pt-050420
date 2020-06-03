@@ -25,11 +25,11 @@ class Owner
   end
 
   def self.reset_all
-    @@pets.clear
+    @@all.clear
   end
 
   def self.cats
-    @@pets[:cats]
+    @@all[:cats]
 
   end
 
