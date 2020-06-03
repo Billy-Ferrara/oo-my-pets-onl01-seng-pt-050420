@@ -28,8 +28,8 @@ class Owner
     @@all.clear
   end
 
-  def pets
-    @@pets
+  def cats
+    @@pets[:cats]
   end
 
 
