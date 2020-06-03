@@ -29,9 +29,7 @@ class Owner
   end
 
   def self.cats
-    @cats << cats
-    owner.cats << cats
-    cats.owner = self
+    pets[cats:]
   end
 
 
