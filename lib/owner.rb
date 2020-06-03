@@ -31,6 +31,7 @@ class Owner
   def cats(p)
     @cats << p
     cats.owner = self
+    @cats 
   end
 
 
