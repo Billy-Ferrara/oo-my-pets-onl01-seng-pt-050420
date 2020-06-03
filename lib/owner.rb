@@ -30,6 +30,7 @@ class Owner
 
   def cats(cats)
     @cats << cats
+    cats.owner = self 
   end
 
 
