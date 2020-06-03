@@ -21,7 +21,7 @@ class Owner
   end
 
   def self.count
-    @@pets.size
+    @@all.size
   end
 
   def self.reset_all
