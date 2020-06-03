@@ -28,8 +28,9 @@ class Owner
     @@all.clear
   end
 
-  def cats
+  def self.cats
     
+
   end
 
 
