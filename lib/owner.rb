@@ -28,8 +28,8 @@ class Owner
     @@all.clear
   end
 
-  def self.cats
-    @cats << cats
+  def cats(p)
+    @cats << p
     cats.owner = self
   end
 
