@@ -9,7 +9,7 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << self
+    @@pets << self
   end
 
   def say_species
@@ -17,15 +17,15 @@ class Owner
   end
 
   def self.all
-    @@all
+    @@pets
   end
 
   def self.count
-    @@all.size
+    @@pets.size
   end
 
   def self.reset_all
-    @@all.clear
+    @@pets.clear
   end
 
   def self.cats
