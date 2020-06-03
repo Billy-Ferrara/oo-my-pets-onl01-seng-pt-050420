@@ -10,7 +10,7 @@ class Dog
     @owner = owner
     @mood = "nervous"
     @@all << self
-    @pets = {fishes: [], dogs: [], cats: []}
+    
   end
 
   def self.all
