@@ -28,9 +28,7 @@ class Owner
     @@all.clear
   end
 
-  def self.cats
-    pets[cats:]
-  end
+  
 
 
 
