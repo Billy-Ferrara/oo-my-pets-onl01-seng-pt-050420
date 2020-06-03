@@ -5,6 +5,10 @@ class Dog
 
   @@all = []
 
+  def self.all
+    @@all = []
+  end
+
   def initialize(name, owner)
     @name = name
     @owner = owner
@@ -13,9 +17,7 @@ class Dog
 
   end
 
-  def self.all
-    @@all = []
-  end
+
 
 
 end
