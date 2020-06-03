@@ -4,8 +4,8 @@ class Cat
   attr_accessor :owner  
 
   def initialize(name)
-    @name = name 
+    @name = name
     @owner = Owner
-  end 
-  
+  end
+
 end
