@@ -28,10 +28,8 @@ class Owner
     @@all.clear
   end
 
-  
-
-
-
-
+  def cats
+    @pets
+  end
 
 end
