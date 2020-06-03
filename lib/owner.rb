@@ -35,7 +35,7 @@ class Owner
 
   def cat_collection
     @pets << pets
-    pets.owner = self 
+    pets.owner = self
   end
 
 
