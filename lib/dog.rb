@@ -9,7 +9,8 @@ class Dog
     @name = name
     @owner = owner
     @mood = "nervous"
-    @@all << self 
+    @@all << self
+    @pets = {fishes: [], dogs: [], cats: []}
   end
 
   def self.all
