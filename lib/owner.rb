@@ -5,6 +5,9 @@ class Owner
 
     @@all = []
 
+    def self.all
+      @@all
+    end
 
   def initialize(name)
     @name = name
@@ -18,10 +21,6 @@ class Owner
     "I am a #{@species}."
   end
 
-  def self.all
-    @@all
-  end
-
   def self.count
     @@all.size
   end
@@ -32,7 +31,7 @@ class Owner
 
   def self.cats
     @cats
-  end 
+  end
 
 
 
