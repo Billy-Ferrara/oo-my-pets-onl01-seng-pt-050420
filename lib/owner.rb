@@ -29,7 +29,7 @@ class Owner
   end
 
   def self.cats
-    @@all[:cats]
+    @@pets[:cats]
 
   end
 
