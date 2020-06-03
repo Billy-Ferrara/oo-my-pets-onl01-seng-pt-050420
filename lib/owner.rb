@@ -8,7 +8,7 @@ class Owner
   def initialize(name)
     @name = name
     @species = "human"
-    @@all << self 
+    @@all << self
   end
 
   def say_species
@@ -19,6 +19,8 @@ class Owner
     @@all
   end
 
-
+  def self.count
+    
+  end
 
 end
