@@ -34,7 +34,7 @@ class Owner
   end
 
   def self.cats
-    @pets[:cats]
+    pets[:cats]
 
   end
 
