@@ -29,7 +29,7 @@ class Owner
   end
 
   def cats
-    @@pets[:cats]
+    Cat.all
   end
 
 
