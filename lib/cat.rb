@@ -10,7 +10,7 @@ class Cat
   end
 
 
-  def initialize(name, owner)
+  def initialize(name, owner=nil)
     @name = name
     @owner = owner
     @mood = "nervous"
