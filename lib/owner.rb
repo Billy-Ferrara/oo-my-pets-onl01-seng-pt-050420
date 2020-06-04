@@ -65,7 +65,6 @@ class Owner
             end
             animals.clear
           end
-
         end
 
 end
