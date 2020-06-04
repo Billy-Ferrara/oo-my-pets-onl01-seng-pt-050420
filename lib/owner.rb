@@ -61,12 +61,12 @@ class Owner
     def sell_pets
       Dog.all.each do |dog|
         dog.mood = "nervous"
-        Dog.owner.clear
+        Dog.clear
       end
 
       Cat.all.each do |cat|
         cat.mood = "nervous"
-        Cat.owner.clear
+        Cat.clear
         end
       end
 
